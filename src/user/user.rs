@@ -1,4 +1,5 @@
-struct User {
+#[derive(Debug)]
+pub struct User {
     name: String,
     age: u32,
 }
@@ -9,23 +10,23 @@ impl User {
         User { name, age }
     }
 
-    fn new_user(name: String, age: u32) -> Self {
+    pub fn new_user(name: String, age: u32) -> Self {
         Self { name, age }
     }
 
     // methods
     fn greeting(&self) {
-        println!("Hello, I'm {} and {} years old", self.nombre, self.edad);
+        println!("\nHello, I'm {} and {} years old", self.name, self.age);
     }
 
 }
 
-trait Presentable { // interface
+pub trait Presentable { // public interface
     fn present(&self);
 }
 
 impl Presentable for User { // implement interface
     fn present(&self) {
-        println!("I'm {} and {} years old", self.name, self.age);
+        println!("\nI'm {} and {} years old", self.name, self.age);
     }
 }
