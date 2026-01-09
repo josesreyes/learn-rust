@@ -2,6 +2,7 @@ use learn_rust::calculator::calculator::{add, mul, sub};
 use learn_rust::user::user::{Presentable, User};
 use learn_rust::variables::booleans;
 use learn_rust::variables::characters_and_strings::{character, strings};
+use learn_rust::variables::mutable_variables::mutable_variables;
 use learn_rust::variables::numbers::NumbersAndDecimals;
 
 fn main() {
@@ -27,6 +28,11 @@ fn main() {
 
     // booleans
     booleans::booleans();
+
+    // mutable_variables
+    mutable_variables();
+
+    //
 }
 
 /*fn numbers() {
