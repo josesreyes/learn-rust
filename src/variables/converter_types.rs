@@ -12,6 +12,7 @@ pub fn converter_types() {
     let int_price: i32 = price as i32;
 
     // Output the values
+    println!("\nCasting Variables");
     println!("Price: {}", price);
     println!("Int Price: {}", int_price);
 }

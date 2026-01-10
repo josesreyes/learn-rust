@@ -1,1 +1,0 @@
-En rust las variables son inmutable por defecto, para hacerlo mutable hay que declararlo con mut

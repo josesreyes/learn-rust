@@ -1,0 +1,2 @@
+1.- En rust las variables son inmutable por defecto, para hacerlo mutable hay que declararlo con mut
+2.- El casting de tipos es el proceso de convertir un valor de un tipo de datos a otro usando 'as' para el casting de tipos explicito.

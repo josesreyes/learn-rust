@@ -7,7 +7,7 @@ pub fn booleans() {
     } else { println!("\nis_available is not available"); }
 
     if is_active {
-        println!("\nBoolean isActive");
+        println!("\nBoolean isActive = true");
     } else {
         println!("\nis_active is not available");
     }
