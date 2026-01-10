@@ -2,6 +2,7 @@ use learn_rust::calculator::calculator::{add, mul, sub};
 use learn_rust::user::user::{Presentable, User};
 use learn_rust::variables::booleans;
 use learn_rust::variables::characters_and_strings::{character, strings};
+use learn_rust::variables::converter_types::converter_types;
 use learn_rust::variables::mutable_variables::mutable_variables;
 use learn_rust::variables::numbers::NumbersAndDecimals;
 
@@ -32,7 +33,8 @@ fn main() {
     // mutable_variables
     mutable_variables();
 
-    //
+    // converter or casting
+    converter_types();
 }
 
 /*fn numbers() {

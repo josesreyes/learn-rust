@@ -3,6 +3,7 @@ pub mod variables {
     pub mod characters_and_strings;
     pub mod booleans;
     pub mod mutable_variables;
+    pub mod converter_types;
 }
 
 pub mod calculator {
